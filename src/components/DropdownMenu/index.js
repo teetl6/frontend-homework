@@ -1,14 +1,14 @@
-import DropdownMenuActions from "./DropdownMenuActions";
-import DropdownMenuCompanies from "./DropdownMenuCompanies";
-import DropdownMenuLinks from "./DropdownMenuLinks";
+import DropdownMenuActions from './DropdownMenuActions'
+import DropdownMenuCompanies from './DropdownMenuCompanies'
+import DropdownMenuLinks from './DropdownMenuLinks'
 const DropdownMenu = () => {
   return (
-    <div className="dropdown-menu panel">
+    <div className="dropdown-menu">
       <DropdownMenuCompanies />
       <DropdownMenuLinks />
       <DropdownMenuActions />
     </div>
-  );
-};
+  )
+}
 
-export default DropdownMenu;
+export default DropdownMenu
