@@ -5,7 +5,7 @@ function DropdownMenuLinks() {
     <div className="dropdown-menu-links">
       <ul className="links">
         <li className="link">
-          <a href="#">
+          <a href="/">
             <i className="material-icons-outlined nav__link-icon">
               phone_iphone
             </i>
@@ -13,13 +13,13 @@ function DropdownMenuLinks() {
           </a>
         </li>
         <li className="link">
-          <a href="#">
+          <a href="/">
             <i className="material-icons-outlined nav__link-icon">people</i>
             Community
           </a>
         </li>
         <li className="link">
-          <a href="#">
+          <a href="/">
             <i className="material-icons-outlined nav__link-icon">book</i>
             Knowledge base
           </a>
